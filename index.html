@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task 4</title>
+    <style>
+      * {
+        margin: 55px;
+        padding: 0;
+      }
+      :root {
+        --color: rgb(119, 254, 119);
+        --seccolor: rgb(216, 246, 216);
+        --tercolor: rgb(134, 215, 253);
+        --quartcolor: rgb(186, 157, 253);
+      }
+      .container {
+        border: 3px solid rgb(149, 37, 241);
+        border-radius: 20px;
+        background-color: rgb(251, 241, 230);
+      }
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+      }
+
+      li {
+        border: 2px solid rgba(17, 94, 248, 0.872);
+        list-style-type: none;
+
+        margin: 12px;
+        padding: 8px;
+        border-radius: 3px;
+      }
+      p {
+        margin: 50px;
+        border: 2px solid rgb(129, 82, 248);
+        border-radius: 5px;
+        background-color: rgb(232, 210, 253);
+        height: 200px;
+        width: 400px;
+        text-align: center;
+        overflow: scroll;
+      }
+      li:nth-child(1) {
+        background-color: var(--color);
+      }
+      li:nth-child(2) {
+        background-color: var(--seccolor);
+      }
+      li:nth-child(3) {
+        background-color: var(--tercolor);
+      }
+      li:last-child {
+        background-color: var(--quartcolor);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="first">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Form</li>
+          <li>Contact</li>
+        </ul>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla facere
+          minus est velit rerum a eum ea amet odit quis. Lorem ipsum, dolor sit
+          amet consectetur adipisicing elit. Consequuntur illo quis ipsa itaque
+          beatae laboriosam. Eveniet maiores accusantium at alias recusandae
+          voluptas molestias repellendus quas perspiciatis praesentium, dolores
+          tenetur voluptatibus. Eaque non doloribus eius nam velit
+          exercitationem. Mollitia, dolorem aspernatur? Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Esse, tempora animi! Commodi eius
+          perspiciatis ab sapiente sit illum excepturi sint magnam tenetur, unde
+          autem voluptas, voluptatem impedit ipsa laboriosam nostrum.
+        </p>
+      </nav>
+    </div>
+  </body>
+</html>
